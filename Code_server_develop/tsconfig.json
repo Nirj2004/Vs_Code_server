@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "strict": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./out",
+        "declaration": false,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "tsBuildInfoFile": "./cache/tsbuildinfo",
+        "incremental": true,
+    "typeRoots": ["./node_modules/@types", "./typings", "./test/node_modules/@types"],
+    "downlevelIteration": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["/test", "/lib", "/ci", "/doc"]
+}
